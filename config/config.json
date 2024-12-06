@@ -1,0 +1,38 @@
+{
+    "global": {
+        "use_proxy": false,
+        "max_retries": 3,
+        "retry_delay": 5,
+        "log_level": "INFO",
+        "max_jobs_per_day": 100
+    },
+    "job_preferences": {
+        "keywords": [],
+        "cities": [],
+        "expected_salary": [],
+        "education": "",
+        "max_work_year": 0
+    },
+    "platforms": {
+        "boss": {
+            "enabled": true,
+            "cookies_file": "cookies/boss_cookies.txt",
+            "default_greeting": "您好，我对{company_name}的{job_name}职位很感兴趣..."
+        }
+    },
+    "ai": {
+        "api": {
+            "provider": " ",
+            "api_key": " ",
+            "api_base": " ",
+            "model": " "
+        },
+        "settings": {
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "top_p": 0.7,
+            "frequency_penalty": 0.5
+        },
+        "introduce": "我是一名4年经验的Python开发工程师..."
+    }
+} 
